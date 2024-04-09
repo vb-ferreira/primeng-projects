@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1c9e",
+      "fullName": "Vinicius Ferrerira",
+      "email": "vbf@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "8af3",
+      "fullName": "Eduardo Borba",
+      "email": "ebf@gmail.com",
+      "password": "1234"
+    }
+  ]
+}
