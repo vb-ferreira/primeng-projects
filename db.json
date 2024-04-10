@@ -12,5 +12,17 @@
       "email": "ebf@gmail.com",
       "password": "1234"
     }
+  ],
+  "todos": [
+    {
+      "id": "2",
+      "task": "second task",
+      "completed": true
+    },
+    {
+      "id": "aab7",
+      "task": "third task",
+      "completed": true
+    }
   ]
 }

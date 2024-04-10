@@ -8,7 +8,7 @@ import { User } from '../interfaces/auth';
 })
 export class AuthService {
 
-  // Fake API
+  // Fake API fron JSON server
   private baseUrl = 'http://localhost:3000';
 
   constructor(private http: HttpClient) {}
