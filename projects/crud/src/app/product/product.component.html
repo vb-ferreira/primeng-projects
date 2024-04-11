@@ -1,3 +1,7 @@
+<div class="flex justify-content-between">
+    <h2>Products</h2>
+    <p-button label="Add Product" (onClick)="showAddModal()"></p-button>
+</div>
 <p-table [value]="products" [paginator]="true" [rows]="10">
   <ng-template pTemplate="header">
       <tr>
@@ -14,5 +18,15 @@
           <td>{{ product.category }}</td>
           <td><img src="{{ product.image }}" width="20px"></td>
       </tr>
-  </ng-template>
+  </ng-template> 
 </p-table>
+
+<!-- Modal -->
+<app-add-edit-product 
+  [displayAddModal]="displayAddModal"
+  (clickClose)="hideAddModal($event)"
+  (clickAdd)="saveProductToList($event)"
+>
+</app-add-edit-product>
+
+<p-toast position="bottom-right"></p-toast>
