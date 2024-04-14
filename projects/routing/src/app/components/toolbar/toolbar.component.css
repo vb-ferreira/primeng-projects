@@ -1,0 +1,9 @@
+div > a {
+  margin-right: 1rem;
+}
+
+.active {
+  font-weight: bold;
+  color: #FF5733;
+  text-decoration: none;
+}

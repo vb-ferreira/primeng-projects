@@ -1,0 +1,7 @@
+@for (paciente of listaPacientes; track paciente.id) {
+  <div>
+    <p>ID: {{ paciente.id }}</p>
+    <p>Name: {{ paciente.nome }}</p>
+    <button [routerLink]="'/prontuarios/prontuario/' + paciente.id">Detalhes</button>
+  </div>
+}
